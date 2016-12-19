@@ -2,16 +2,17 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Backend.Database": "1.0.0-*",
-    "Microsoft.AspNetCore.Authentication": "1.1.0",
     "Microsoft.EntityFrameworkCore": "1.1.0",
-    "System.IdentityModel.Tokens.Jwt": "5.1.0"
+    "Microsoft.EntityFrameworkCore.InMemory": "1.1.0"
   },
 
   "frameworks": {
     "netstandard1.6": {
       "dependencies": {
-        "NETStandard.Library": "1.6.1"
+        "NETStandard.Library": {
+          "type": "platform",
+          "version": "1.6.1"
+        }
       }
     }
   }

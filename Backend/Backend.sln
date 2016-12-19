@@ -14,6 +14,10 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Backend", "src\Backend\Back
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SimpleTokenProvider", "src\SimpleTokenProvider\SimpleTokenProvider.xproj", "{30344C03-9117-433F-82D2-EC7A8AC7536D}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BackendAPIwithAuth", "src\BackendAPIwithAuth\BackendAPIwithAuth.xproj", "{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Backend.Database", "src\Backend.Database\Backend.Database.xproj", "{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +32,14 @@ Global
 		{30344C03-9117-433F-82D2-EC7A8AC7536D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30344C03-9117-433F-82D2-EC7A8AC7536D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30344C03-9117-433F-82D2-EC7A8AC7536D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,5 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6B4D72CA-EA75-4246-814B-D2D9A2425F79} = {16207FF1-1BBD-4F43-BC44-637FB488F21E}
 		{30344C03-9117-433F-82D2-EC7A8AC7536D} = {16207FF1-1BBD-4F43-BC44-637FB488F21E}
+		{7D0EB926-27A9-4571-BC4F-5A7E1C35EF1D} = {16207FF1-1BBD-4F43-BC44-637FB488F21E}
+		{6FC52024-D3E6-4881-BE5D-9906F2A9EA7C} = {16207FF1-1BBD-4F43-BC44-637FB488F21E}
 	EndGlobalSection
 EndGlobal
